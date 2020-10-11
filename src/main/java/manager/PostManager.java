@@ -100,11 +100,12 @@ public class PostManager {
     }
 
 
-
-    public <ownerId, domain, query, ownersOnly, count, offset> Post[] search() {
+    public Post[] search(int ownerId, String domain, String query, int ownersOnly, int count, int offset) {
         return null;
     }
 
-    public <ownerId, postId> void delete() {
+    public void delete(int ownerId, int postId) {
+
     }
+
 }
